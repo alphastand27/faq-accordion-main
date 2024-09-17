@@ -177,3 +177,72 @@ body {
         margin-bottom: -15%;
     }
 }
+
+/*
+* Below is the desktop design
+*/
+
+@media only screen and (min-width: 820px) {
+    
+    .container {
+        max-width: 1440px;
+    }
+    
+    #desktop-img {
+        display: block;
+        margin-top: -13%;
+    }
+    
+    #mobile-img {
+        display: none;
+    }
+    
+    .page-info-card {
+        margin: 13% auto 10% auto;
+        border-radius: 15px;
+        padding: 2.5%;
+        width: 30%;
+    }
+    
+    .header {
+        display: flex;
+        margin-top: -10%;
+    }
+    
+    #star {
+        width: 7%;
+    }
+    
+    #faqs {
+        font-weight: 700;
+        font-size: 38px;
+        margin-left: 25px;
+    }
+
+    .qa {
+        margin-bottom: 8%;
+    }
+    
+    .qb {
+        margin-top: -2%;
+    }
+    
+    .question {
+        margin-right: 0%;
+        font-weight: 700;
+        font-size: 13.5px;
+    }
+    
+    .answer {
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 6%;
+        margin-top: 2%;
+        margin-right: 0;
+        line-height: 22px;
+    }
+    
+    #a-four {
+        margin-bottom: -10%;
+    }
+}
