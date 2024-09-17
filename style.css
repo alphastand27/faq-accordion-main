@@ -1,4 +1,107 @@
+/*
+* Mobile first approach to design
+*/
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+}
+
+body {
+    margin: 0;
+    background-color: var(--Light-pink);
+    font-family: "Work Sans", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 375px;
+}
+
+.background-img {
+    position: absolute;
+    z-index: 0;
+}
+
+#desktop-img {
+    display: none;
+}
+
+#mobile-img {
+    margin-top: -40%;
+}
+
+.page-info-card {
+    position: relative;
+    background-color: var(--White);
+    margin: 38% 5% 40% 5%;
+    border-radius: 8px;
+    padding: 7%;
+}
+
+.header {
+    display: flex;
+    margin-top: -10%;
+}
+
+#star {
+    width: 8%;
+}
+
+#faqs {
+    font-weight: 700;
+    font-size: 33px;
+    margin-left: 25px;
+    color: var(--Dark-purple);
+}
+
+.qa {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.205);
+    margin-bottom: 12%;
+}
+
+#qa-four {
+    border: none;
+}
+
+.qb {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -8%;
+}
+
+.question {
+    margin-right: 13%;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--Dark-purple);
+}
+
+.question:hover {
+    color: rgb(165, 7, 197);
+}
+
+.action-icon {
+    margin-right: 2%;
+}
+
+.answer {
+    font-size: 14px;
+    color: var(--Grayish-purple);
+    font-weight: 400;
+    margin-bottom: 8%;
+    margin-top: 2%;
+    margin-right: 5%;
+    line-height: 22px;
+}
+
+#a-four {
+    margin-bottom: -15%;
+}
 
 .attribution { 
     font-size: 11px; 
@@ -8,3 +111,4 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
