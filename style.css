@@ -1,5 +1,6 @@
 /*
-* Mobile first approach to design
+* Mobile first approach to design.
+* Below is the design for most mobile screen size.
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
@@ -11,14 +12,19 @@
     --Dark-purple: hsl(292, 42%, 14%);
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
-    margin: 0;
+    margin: 0%;
     background-color: var(--Light-pink);
     font-family: "Work Sans", sans-serif;
 }
 
 .container {
-    margin: 0 auto;
+    margin: 0;
     max-width: 375px;
 }
 
@@ -45,7 +51,7 @@ body {
 
 .header {
     display: flex;
-    margin-top: -10%;
+    margin-top: -12%;
 }
 
 #star {
@@ -112,3 +118,62 @@ body {
     color: hsl(228, 45%, 44%); 
 }
 
+/*
+* Below is the design for the tablet screen size.
+*/
+
+@media only screen and (min-width: 600px) {
+    
+    .container {
+        max-width: 600px;
+    }
+
+    #mobile-img {
+        margin-top: -40%;
+        width: 810px;
+    }
+
+    .page-info-card {
+        margin: 50% 0 40% 10%;
+        width: 95%;
+        border-radius: 15px;
+        padding: 8%;
+    }
+
+    .header {
+        margin-top: -10%;
+    }
+    
+    #star {
+        width: 8%;
+    }
+    
+    #faqs {
+        font-size: 70px;
+        margin-left: 35px;
+    }
+
+    .qb {
+        margin-top: -9%;
+    }
+
+    .question {
+        font-size: 30px;
+    }
+    
+    .action-icon {
+        margin-right: 2%;
+    }
+    
+    .answer {
+        font-size: 28px;
+        margin-bottom: 8%;
+        margin-top: 2%;
+        margin-right: 5%;
+        line-height: 35px;
+    }
+    
+    #a-four {
+        margin-bottom: -15%;
+    }
+}
