@@ -12,6 +12,8 @@ const answers = {
     a4:  "The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members."
 };
 
+answer[0].innerText = answers.a1;
+
 button[0].addEventListener("click", function(){
     if (answer[0].innerText === "") {
         icon[0].src = minusImage;
