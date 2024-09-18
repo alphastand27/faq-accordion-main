@@ -67,7 +67,7 @@ body {
 
 .qa {
     border-bottom: 1px solid rgba(128, 128, 128, 0.205);
-    margin-bottom: 12%;
+    margin-bottom: 15%;
 }
 
 #qa-four {
@@ -78,6 +78,12 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: -8%;
+    text-decoration: none;
+}
+
+.qb, .question:hover {
+    cursor: pointer;
+    color: rgb(165, 7, 197);
 }
 
 .question {
@@ -85,10 +91,6 @@ body {
     font-weight: 600;
     font-size: 16px;
     color: var(--Dark-purple);
-}
-
-.question:hover {
-    color: rgb(165, 7, 197);
 }
 
 .action-icon {
